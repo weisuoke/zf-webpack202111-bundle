@@ -52,6 +52,7 @@
   var __webpack_exports__ = {};
   (() => {
     "use strict";
+    // 说明当前 index.js 模块是一个 common.js 模块
     __webpack_require__.r(__webpack_exports__);
     var _title__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./src/title.js");
     var _title__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_title__WEBPACK_IMPORTED_MODULE_0__);
@@ -59,4 +60,4 @@
     console.log(title.age)
   })();
 })()
-  ;
+;
