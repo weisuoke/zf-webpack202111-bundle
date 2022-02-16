@@ -1,4 +1,7 @@
-import title from './title'
+const load = document.getElementById("load")
 
-console.log(title.name)
-console.log(title.age)
+load.addEventListener('click', () => {
+  import(/* webpackChunkName: title */'./title').then(result => {
+    console.log(result.default)
+  })
+})
